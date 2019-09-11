@@ -1,6 +1,6 @@
-#' funzione che trasforma un mese numerico nel nome in CV
+#' Funzione che trasforma un mese numerico nel nome in CV
 #'
-#' funzione che trasforma un mese numerico nel nome in CV
+#' Funzione che trasforma un mese numerico nel nome in CV
 #' 
 #' @param x number of month
 #' @export
