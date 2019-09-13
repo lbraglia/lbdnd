@@ -2,7 +2,7 @@
 % Please edit documentation in R/month_to_cv.R
 \name{month_to_cv}
 \alias{month_to_cv}
-\title{funzione che trasforma un mese numerico nel nome in CV}
+\title{Funzione che trasforma un mese numerico nel nome in CV}
 \usage{
 month_to_cv(x)
 }
@@ -10,5 +10,5 @@ month_to_cv(x)
 \item{x}{number of month}
 }
 \description{
-funzione che trasforma un mese numerico nel nome in CV
+Funzione che trasforma un mese numerico nel nome in CV
 }

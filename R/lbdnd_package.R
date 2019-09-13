@@ -4,4 +4,4 @@
 #'
 #' @name lbdnd
 #' @docType package
-#' NULL
+NULL
