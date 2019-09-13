@@ -4,7 +4,10 @@
 \name{monsters}
 \alias{monsters}
 \title{Monsters list}
-\format{An object of class \code{list} (inherits from \code{monsterList}) of length 325.}
+\format{list of monster stats}
+\source{
+organm/monsteR
+}
 \usage{
 monsters
 }

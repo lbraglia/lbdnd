@@ -4,7 +4,10 @@
 \name{spells}
 \alias{spells}
 \title{Spells list}
-\format{An object of class \code{list} (inherits from \code{spellList}) of length 460.}
+\format{list of spell stats}
+\source{
+organm/wizaRd
+}
 \usage{
 spells
 }

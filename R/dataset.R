@@ -1,11 +1,13 @@
 #' Monsters list
 #'
 #' Monsters list
-#' @export
+#' @format list of monster stats
+#' @source organm/monsteR
 "monsters"
 
 #' Spells list
 #'
 #' Spells list
-#' @export
+#' @format list of spell stats
+#' @source organm/wizaRd
 "spells"
