@@ -38,7 +38,12 @@ disadvantage <- function(x, y){
 
 l2d20$advantage <- advantage(l2d20[, 1], l2d20[, 2])
 l2d20$disadvantage <- disadvantage(l2d20[, 1], l2d20[, 2])
-
+sd(d20)
+sd(l2d20$advantage)
+sd(l2d20$disadvantage)
+## quindi con vantaggio si guadagnano mediamente 3.325 punti e si
+## ha meno variabilità
+mean(l2d20$advantage) - mean(d20)
 
 ylab <- 'Prob'
 ylim <- c(0, 0.1)
