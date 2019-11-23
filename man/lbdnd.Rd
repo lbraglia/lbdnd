@@ -3,7 +3,6 @@
 \docType{package}
 \name{lbdnd}
 \alias{lbdnd}
-\alias{lbdnd-package}
 \title{An R package for dnd}
 \description{
 An R package for dnd

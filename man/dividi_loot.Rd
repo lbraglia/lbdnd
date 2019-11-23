@@ -4,7 +4,7 @@
 \alias{dividi_loot}
 \title{Effettua le divisioni di monete di varia tipologia}
 \usage{
-dividi_loot(MO = 0, MA = 0, MR = 0, MP = 0, ME = 0, n = 6)
+dividi_loot(MO = 0, MA = 0, MR = 0, MP = 0, ME = 0, n = 7)
 }
 \arguments{
 \item{MO}{monete oro}
