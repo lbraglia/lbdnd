@@ -2,3 +2,4 @@
 
 export(dividi_loot)
 export(month_to_cv)
+export(spellbook_backup)
