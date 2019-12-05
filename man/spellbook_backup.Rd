@@ -4,15 +4,26 @@
 \alias{spellbook_backup}
 \title{Calcola il costo di un backup di spellbook in base alle magie trascritte}
 \usage{
-spellbook_backup(copied_spells = NULL, add_blank_spellbook = TRUE)
+spellbook_backup(
+  n_full_cost = NULL,
+  n_half_cost = NULL,
+  add_blank_spellbook = TRUE
+)
 }
 \arguments{
-\item{copied_spells}{vector with the number of trascribed}
+\item{n_full_cost}{vector with the number of trascribed spells
+which are payed at full cost (eg if evocator, all but evocation
+spells)}
+
+\item{n_half_cost}{vector with the number of trascribed spells
+which are payed at half cost (eg if evocator, only evocation
+spells)}
 }
 \description{
 Calcola il costo di un backup di spellbook in base alle magie trascritte
 }
 \examples{
-spellbook_backup(c(6,4,2)) # 6 lev1 spells, 4 lev2 spells, 2 lev3 spells
+# Aelar 5th level
+spellbook_backup(c(9,4,2), c(3,0,2))
 
 }
